@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: "IBMPlexSerif";
+    src: url("../fonts/IBMPlexSerif-Regular.ttf");
+}
+@font-face {
+    font-family: "Mokoto";
+    src: url("../fonts/Mokoto\ Glitch.otf");
+}
+
+@font-face {
+    font-family: Gravity;
+    src: url("../fonts/Gravity-Book.otf");
+}
+
+@font-face {
+    font-family: Gravity-Bold;
+    src: url("../fonts/Gravity-Bold.otf");
+}
+
+@font-face {
+    font-family: Gravity-Regular;
+    src: url("../fonts/Gravity-Regular.otf");
+}
+
+body {
+    color: #fff;
+    font-family: Gravity;
+    background-color: #000;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
