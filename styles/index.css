@@ -62,7 +62,7 @@
 
 .about-bsides {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 }
 
 .bsides-about-img,
@@ -72,10 +72,9 @@
 }
 
 .bsides-about-img img {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     object-fit: fill;
-    border-radius: 20px;
 }
 
 .bsides-about-text .about-text-item {
@@ -106,19 +105,6 @@
     font-family: Gravity-Regular;
 }
 
-#counter-card {
-    margin-top: 50px;
-}
-
-.conter-box {
-    font-size: 28px;
-    text-align: center;
-    margin: 0 50px;
-    color: #000;
-    padding: 10px 50px;
-    background-color: #fff;
-    font-family: Gravity-Regular;
-}
 
 .bsides-kontact {
     width: 100%;
@@ -180,7 +166,7 @@
 
 .kontact-email-header {
     align-items: center;
-    font-size: 30px;
+    font-size: 35px;
     font-family: Gravity-Bold;
 }
 
@@ -196,10 +182,11 @@
 .kontact-email-item a {
     color: #fff;
     padding-left: 20px;
+    font-size: 20px;
     text-decoration: underline;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 428px) {
     .bsides-nav a {
         display: none;
     }
@@ -220,7 +207,12 @@
     .bsides-about-text {
         width: 100%;
     }
-    .email-rows{
+
+    .kontact-email-item {
+        justify-content: center;
+    }
+
+    .email-rows {
         flex-direction: column;
     }
 
