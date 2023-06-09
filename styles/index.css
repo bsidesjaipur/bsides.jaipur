@@ -283,7 +283,7 @@ text-small{
     width: 110px;
   }
 #Reg{
-    margin-left: auto;
+    margin-left: 0px;
 }
 #bu1 {
     cursor: pointer;
