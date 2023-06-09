@@ -283,7 +283,7 @@ text-small{
     width: 110px;
   }
 #Reg{
-    margin-left: 0px;
+    margin-left: auto;
 }
 #bu1 {
     cursor: pointer;
@@ -342,6 +342,9 @@ text-small{
     flex: 0 0 auto;
     width: 26.33333333%;
 }
-.h3{
-    font-size=35px;
+mark{
+    color: #000000;
+    background-color: #d95959;
+    border-radius: 15px;
+
 }

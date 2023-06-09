@@ -31,6 +31,9 @@
     margin-bottom: 180px;
     margin-left: -120px;   
 }
+.h3{
+    font-size: 35px;
+}
 @media screen and (max-width: 636px){
     #ctf{
         width: 150px;
