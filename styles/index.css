@@ -342,3 +342,6 @@ text-small{
     flex: 0 0 auto;
     width: 26.33333333%;
 }
+.h3{
+    font-size=35px;
+}
