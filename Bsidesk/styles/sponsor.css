@@ -1,0 +1,53 @@
+#ctf{
+    margin-top: -10px;
+}
+#thr{
+    width: 400px;
+    height: 150px;
+    margin-bottom: 180px;
+    margin-right: 150px;
+}
+#nul{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 180px;
+    margin-left: -120px;
+}
+#BO{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+#gds{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 180px;
+}
+
+#Thm{
+    width: 200px;
+    height: 150px;
+    margin-bottom: 180px;
+    margin-left: -120px;   
+}
+@media screen and (max-width: 636px){
+    #ctf{
+        width: 150px;
+        height: 150px;
+        margin-left: -50px;
+        margin-bottom: 125px;
+    }
+    #nul{
+        width: 150px;
+        height: 150px;
+        margin-bottom: 180px;
+        margin-left: 20px;
+    }
+    #Thm{
+        width: 150px;
+        height: 150px;
+        margin-bottom: 180px;
+        margin-left: 20px;   
+    }
+}
