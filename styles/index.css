@@ -1,0 +1,344 @@
+/* Navigation */
+.navbar{
+    font-size: 1.2em;
+    margin-top: -40px;
+
+}
+.bsides-nav {
+    width: 100%;
+    height: 90px;
+    color: #fff;
+    align-items: center;
+    /* position: fixed; */
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+.bsides-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+.dropdown-toggle {
+    white-space: nowrap;
+    background: none;
+  }
+#dropdownMenuButton1{
+    color: wheat;
+    border: 0px;
+    padding-top: 10px;
+    font-family: "IBMPlexSerif", sans-serif;
+    font-size: large;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top:15px;
+}
+.navbar{  
+    color: #fff;
+     background-color: rgba(0, 0, 0, 0.223)!important;
+ }
+ .nav-item{
+    margin: 5% auto;
+ }
+
+/* Intro */
+.intro-container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.intro-container .intro-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    filter: brightness(40%);
+}
+.intro-item {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    z-index: 1;
+    position: absolute;
+}
+.intro-banner {
+    width: 100%;
+    height: calc(100vh - 80px);
+    margin-top: 50px;
+}
+
+.bj-text {
+    color: #fff;
+    font-size: 70px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-family: "Mokoto";
+    margin-top: -410px;
+}
+
+.bj-date-text,
+.bj-edition-text {
+    color: #fff;
+    font-size: 25px;
+    font-family: Gravity-Regular;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.bj-date-text{
+    margin-top: 0;
+}
+
+
+
+/* About */
+.about-bsides {
+    width: 100%;
+    height: 70vh;
+}
+.bsides-about-img,
+.bsides-about-text {
+    width: 50%;
+    height: 100%;
+}
+.bsides-about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.bsides-about-text .about-text-item {
+    width: 70%;
+    text-align: center;
+    font-size: 22px;
+    font-family: "IBMPlexSerif", sans-serif;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+ .section{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+}
+.section-left{
+    flex-direction: row-reverse;
+}
+.paras{
+    padding: 0px 65px;
+}
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:1.5em;
+}
+.thumbnail img{
+    width: 25em;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+}
+
+/* Counter */
+.bsides-counter {
+    width: 100%;
+    height: fit-content;
+    padding: 50px 0;
+    background-color: #0E0E10;
+}
+
+.bsides-header {
+    width: 60%;
+    text-align: center;
+}
+
+.bsides-description {
+    margin-top: 20px;
+    font-family: Gravity-Regular;
+}
+.countdown-timer {
+    text-align: center;
+    margin-top: 50px;
+
+  }
+  
+  .countdown-item {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .countdown-number {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .countdown-text {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+/* Contact */
+.bsides-kontact {
+    width: 100%;
+    height: 70vh;
+    background-image: url("../img/albert-hall-museum-g575ebe314_1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.kontact-item {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.71);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.kontact-social,
+.kontact-email {
+    width: 100%;
+    height: 50%;
+}
+
+.socialBanner {
+    width: 100%;
+    height: 100%;
+}
+
+.socialbanner-item {
+    width: 50%;
+    justify-content: space-around;
+}
+
+.icons {
+    margin: 7px 0;
+}
+
+.icons a {
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.icon-text {
+    margin-left: 30px;
+}
+
+.kontact-email-item {
+    width: 70%;
+    height: 50%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.kontact-email-header {
+    align-items: center;
+    font-size: 35px;
+    font-family: Gravity-Bold;
+}
+
+.email-header-txt {
+    padding-left: 20px;
+}
+
+.email-rows {
+    display:flex ;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.kontact-email-item a {
+    color: #fff;
+    padding-left: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+.tsbutton{
+    margin-top: 40px;
+}
+text-small{
+    font-size: large!important;
+}
+/* ID */
+#BO{
+    height: auto;
+    width: 110px;
+  }
+#Reg{
+    margin-left: auto;
+}
+#bu1 {
+    cursor: pointer;
+    background-color: #fff;
+    color: #212529;
+    border-color: #fff;
+    border-radius: 12px;
+    border-width: 2px;
+    text-transform: uppercase;
+    min-width: 195px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .8px;
+    padding: 10px 16px;
+    line-height: 1.3333333;
+}
+#row{
+    margin-top: -400px;
+}
+#rbu1{
+    margin-top: 5px;
+}
+#rbu2{
+    margin-top: 5px;
+}
+
+/* Sponsors Section */
+
+.sponsors {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #000000;
+ }
+ 
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 35.33333333%;
+    margin-left: 12px;
+  }
+
+  .section-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .sponsor-item {
+    margin-bottom: 30px;
+  }
+  
+.col-md-7{
+    flex: 0 0 auto;
+    width: 32.33333333%;   
+}
+.col-md-8{
+    flex: 0 0 auto;
+    width: 26.33333333%;
+}
