@@ -1,0 +1,131 @@
+@media screen and (max-width: 636px){
+    .nav-logo .logo{
+            display: unset;
+            align-items: left;
+        }
+
+
+        .bsides-nav a {
+            display: none;
+        }
+    
+        .bj-text {
+            font-size: 50px;
+            text-align: center;
+        }
+    
+        .bj-edition-text {
+            font-size: 20px;
+        }
+    
+        .bsides-about-img {
+            display: none;
+        }
+    
+        .bsides-about-text {
+            width: 100%;
+        }
+    
+        .kontact-email-item {
+            justify-content: center;
+        }
+    
+        .email-rows {
+            flex-direction: column;
+        }
+    
+        .socialbanner-item {
+            width: 90%;
+        }
+        
+        #dropdownMenuButton1{
+            padding: 0px;
+        }
+
+
+        .nav-list{
+            flex-direction: column;
+        }
+        .navbar{
+           
+            flex-direction: column;
+            transition: all 0.7s ease-out;
+        }
+        
+        .box-main{
+            flex-direction: column-reverse;
+            max-width: 100%;
+        }
+    
+        .burger{
+        display: block;
+        }
+        .h-nav-resp{
+            height: 72px;
+        }
+        .v-class-resp{
+            opacity: 0;
+        }
+        .buttons{
+            text-align: center;
+        }
+
+        #about{
+    
+            padding-bottom: 20%;
+        }
+        .about_text{
+            display: flexbox;
+            flex-wrap: wrap;
+            font-size: medium;
+        }
+
+        .bsides-about-img img {
+            display: flexbox;
+            width: 100px;
+            height: 100px;
+            
+        }
+
+        
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-small{
+        text-align: left;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .paras {
+    padding: 0px;
+}
+
+.thumbnail img{
+    width: 25em;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+}
+
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 100.333%;
+  }
+
+.col-sm-5{
+    max-width: none !important;
+    flex: 0 0 auto;
+    width: 100.333%;
+}
+#Sp{
+    margin-left: 100px;
+}
+#S1{
+    margin-left: 2px;
+}
+
+}
