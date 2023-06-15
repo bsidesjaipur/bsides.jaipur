@@ -309,6 +309,17 @@ text-small{
 #rbu2{
     margin-top: 5px;
 }
+#S1{
+    max-width: 300px;
+    position: relative;
+    margin: 15px;
+}
+#Sp{
+    margin-left: 550px;
+}
+#pabout{
+    color: white;
+}
 
 /* Sponsors Section */
 
@@ -342,9 +353,51 @@ text-small{
     flex: 0 0 auto;
     width: 26.33333333%;
 }
-mark{
-    color: #000000;
-    background-color: #d95959;
-    border-radius: 15px;
+/* Speaker section*/
+.col-sm-5{
+    display: inline !important;
+    max-width: 300px;
+    height:auto;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.text-block{
+    margin-left: 45px;
+}
+.Speaker-box{
+    max-width: 810px;
+    max-height: 600px;
+    background-color: rgba(255, 255, 255, 0.88);
+    box-shadow: 5px 10px #9b8c8c;
+    border-radius: 10px;
+}
+.Speaker-box1{
+    max-width: 270px;
+    max-height: 500px;
+}
+#PM{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+p {
+    margin-top: 5px;
+    margin-bottom: 0rem;
+    font-size: 17px;
+    color: #000000
+    ;
+  }
+.text-block-details{
+    text-align: center;
+    padding: 10px;
+    break-inside: avoid;
 
+}
+.column{
+    column-count: 2;
+    column-gap: 2px;
+}
+#deta{
+    margin-top: 130px;
+    font-size: 25px;
+    font-style: italic;
 }

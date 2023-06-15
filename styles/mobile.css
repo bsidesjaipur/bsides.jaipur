@@ -116,4 +116,16 @@
     width: 100.333%;
   }
 
+.col-sm-5{
+    max-width: none !important;
+    flex: 0 0 auto;
+    width: 100.333%;
+}
+#Sp{
+    margin-left: 100px;
+}
+#S1{
+    margin-left: 2px;
+}
+
 }
