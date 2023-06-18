@@ -1,0 +1,1 @@
+document.getElementById("myVideo").loop = true;

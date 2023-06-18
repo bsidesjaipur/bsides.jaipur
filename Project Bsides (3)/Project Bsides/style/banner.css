@@ -1,0 +1,90 @@
+.Banner_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .Banner_box{
+    font-size: 120px;
+    color: rgb(255, 255, 255);
+    font-family: 'mokoto' ;
+
+
+    
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgba(27, 26, 26, 0.151);
+  
+    transition-property: box-shadow, transform;
+    transition-duration: 350ms;
+    transition-timing-function: ease;
+  
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.24);
+  }
+  
+  .Banner_box:is(:hover, :focus) {
+    box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+    transform: translateY(-8px);
+  }
+  
+
+
+.Banner_sub_text{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-family: 'mokoto' ;
+  align-items: center;
+  text-align: center;
+
+}
+/* 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #101010;
+} */
+.title1 {
+  font-family:'Anonymous Pro' 'Space Mono', monospace;
+  font-size: clamp(1rem, 10vw, 15rem);
+
+  letter-spacing: 5px;
+  color: #fffafa;
+  padding: 0 clamp(1rem, 2vw, 3rem);
+  border-radius: 10px;
+
+  background: rgba(255, 255, 255, 0.05);
+  margin: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+.title:hover {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.053);
+  margin: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
