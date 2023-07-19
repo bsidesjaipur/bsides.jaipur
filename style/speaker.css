@@ -24,6 +24,18 @@ body {
     width: 100%;
     background: rgba(0, 0, 0, 0);
 }
+.speaker-card-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5cm;
+  }
+  
+  .speaker-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
 .outer-div, .inner-div {
     height: 450px;
     max-width: 300px;

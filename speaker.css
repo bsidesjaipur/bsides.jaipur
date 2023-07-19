@@ -91,7 +91,7 @@ body {
     position: relative;
     height: 150px;
     width: 300px;
-    background: url("../img/paul_masek_cover.jpg") no-repeat;
+    background: url("./img/paul_masek_cover.jpg") no-repeat;
     background-size: cover;
     backface-visibility: hidden;
     overflow: hidden;
@@ -115,7 +115,7 @@ body {
     margin: 0 auto;
     border-radius: 50%;
     border: 5px solid #fff;
-    background: url("../img/paul_masek.png") no-repeat;
+    background: url("./img/paul_masek.png") no-repeat;
     background-size: contain;
     overflow: hidden;
    backface-visibility: hidden;
@@ -131,7 +131,7 @@ body {
     margin: 0 auto;
     border-radius: 50%;
     border: 5px solid #fff;
-    background: url("../img/nikhilsrivastav.jpeg") no-repeat;
+    background: url("./img/nikhilsrivastav.jpeg") no-repeat;
     background-size: contain;
     overflow: hidden;
    backface-visibility: hidden;
@@ -149,7 +149,7 @@ body {
     margin: 0 auto;
     border-radius: 50%;
     border: 5px solid #fff;
-    background: url("../img/speaker3.jpg") no-repeat;
+    background: url("./img/speaker3.jpg") no-repeat;
     background-size: contain;
     overflow: hidden;
    backface-visibility: hidden;
@@ -166,7 +166,7 @@ body {
     margin: 0 auto;
     border-radius: 50%;
     border: 5px solid #fff;
-    background: url("../img/speaker4.jpg") no-repeat;
+    background: url("./img/speaker4.jpg") no-repeat;
     background-size: contain;
     overflow: hidden;
    backface-visibility: hidden;
