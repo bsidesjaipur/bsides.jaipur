@@ -63,6 +63,31 @@ footer {
     flex-shrink: 0;
 }
 
+/* Style for the announcement card */
+.announcement-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Style for the heading */
+.announcement-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Style for the description */
+.announcement-card p {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+}
+
+
+
 /* Responsive styles */
 @media screen and (max-width: 600px) {
     main {
