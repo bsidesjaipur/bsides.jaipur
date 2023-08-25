@@ -3,6 +3,17 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.ticket{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 25% 100px 25%;
+}
+
+
+
+
 .background {
     position: absolute;
     top: 0;
