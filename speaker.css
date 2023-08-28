@@ -157,6 +157,24 @@ body {
     z-index: 3;
   
 }
+
+.front__face-photo3 {
+    position: relative;
+    top: -60px;
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    background: url("../img/Ryan.jpeg") no-repeat;
+    background-size: contain;
+    overflow: hidden;
+   backface-visibility: hidden;
+    transition: all 0.6s cubic-bezier(0.8, -0.4, 0.2, 1.7);
+    z-index: 3;
+  
+}
+
 .front__face-photo4 {
     position: relative;
     top: -60px;
@@ -174,7 +192,7 @@ body {
   
 }
 
-.front__face-photo3 {
+.front__face-photo5 {
     position: relative;
     top: -60px;
     height: 120px;
