@@ -7,14 +7,17 @@ body {
 
 .ticket{
        
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 25% 100px 25%;
+    margin: 0px 25% 100px 15%;
+    gap: 120px;
 
 }
 .sitems{
     margin: 100px;
+    
+
 }
 
 .background {
