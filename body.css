@@ -21,7 +21,8 @@ body,html {
     font-weight: 1000;
     display: flex;
     justify-content: center;
-    margin:100px;
+    margin:20px;
+    margin-top: 40px;
 }
 
 .backvideo{
