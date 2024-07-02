@@ -44,7 +44,8 @@
   font-family: 'mokoto' ;
   align-items: center;
   text-align: center;
-
+  padding-top: 10px;
+  /* gap: 20px; */
 }
 /* 
 * {
