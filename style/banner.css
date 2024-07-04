@@ -10,7 +10,7 @@
   .btnr{
     background-color: transparent;
     padding: 8px; border-radius:10px; font-size:20px;font-weight:bold;
-    border: 1px solid tomato;
+    border: 1px solid rgb(224, 224, 224);
     color: white;
   }
   .btnr a{
@@ -117,7 +117,7 @@ body {
   .btnr{
     background-color: transparent;
     padding: 8px; border-radius:10px; font-size:20px;font-weight:bold;
-    border: 1px solid tomato;
+    border: 1px solid rgb(194, 194, 194);
     color: white;
   }
   .btnr a{
