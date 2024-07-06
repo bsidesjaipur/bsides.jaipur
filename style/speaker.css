@@ -287,22 +287,25 @@ body {
     position: relative;
     top: -5px;
     color: #000;
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 0.4px;
-    font-weight: 400;
+    font-weight: 500;
     font-family: "Montserrat", sans-serif;
+    margin: 14px;
+    padding: 5px;
 }
 .front__text .front-icons {
     position: relative;
     top: 0;
-    font-size: 14px;
+    font-size: 15px;
     margin-right: 6px;
+    margin-top: 8px;
     color: gray;
 }
 .front__text .front__text-hover {
     position: relative;
     top: 10px;
-    font-size: 10px;
+    font-size: 15px;
     color: tomato;
     backface-visibility: hidden;
     font-weight: 700;
