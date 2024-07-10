@@ -269,13 +269,30 @@ body {
     margin-bottom: 4px;
     border-radius: 50%;
     border: 5px solid #fff;
-    background: url("./img/bibek.png") no-repeat;
+    background: url("./img/aaditya\ soni.jpg") no-repeat;
     background-size: contain;
     overflow: hidden;
    backface-visibility: hidden;
     transition: all 0.6s cubic-bezier(0.8, -0.4, 0.2, 1.7);
     z-index: 3;
   
+}
+
+.front__face-photo10{
+    position: relative;
+    top: -60px;
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    margin-bottom: 4px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    background: url("./img/nikhil-removebg-preview.png") no-repeat;
+    background-size: contain;
+    overflow: hidden;
+   backface-visibility: hidden;
+    transition: all 0.6s cubic-bezier(0.8, -0.4, 0.2, 1.7);
+    z-index: 3;
 }
 
 
