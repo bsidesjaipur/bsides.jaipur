@@ -287,7 +287,8 @@ body {
     margin-bottom: 4px;
     border-radius: 50%;
     border: 5px solid #fff;
-    background: url("./img/nikhil-removebg-preview.png") no-repeat;
+    background: url("./img/nikhil-removebg-preview.png
+    ") no-repeat;
     background-size: contain;
     overflow: hidden;
    backface-visibility: hidden;
